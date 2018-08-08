@@ -25,7 +25,10 @@ def complex_curfew_checker(time)
 end
 complex_curfew_checker(10)
 
-def deluxe_curfew_checker(time)
+def deluxe_curfew_checker(time, curfew)
+  if time-curfew==0 || time-curfew=1
+    puts
+  else
   
 end
 
